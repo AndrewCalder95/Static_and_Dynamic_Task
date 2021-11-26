@@ -18,9 +18,9 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1: #should be double equals rather than a single equal
+    if card.value = 1: #'=' is an assignment operator so in this case we need '==' as this is a comparison operator
       return True
-    else # a colon is required after this
+    else # a colon is required after this else statement 
       return False
    
 
